@@ -1,0 +1,4 @@
+FROM nginx:mainline-alpine-slim
+COPY nginx.conf /etc/nginx/nginx.conf
+
+EXPOSE 80
