@@ -22,6 +22,7 @@ config do
     redirect "jobs.hackclub.com", to: "https://hackclub.com/jobs"
     redirect "pizza.hackclub.com", to: "https://hackclub.com/pizza", code: 302
     redirect "sinerider.hackclub.com", to: "https://sinerider.com", code: 302
+    redirect "liquidate.hackclub.com", to: "https://itch.io/jam/liquidate", code: 302
 
     # hackclub.id
     redirect "hackclub.id", to: "https://auth.hackclub.com"
